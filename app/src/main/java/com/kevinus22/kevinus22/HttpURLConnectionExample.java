@@ -38,9 +38,7 @@ public class HttpURLConnectionExample extends Thread {
             System.out.println("Код ответа: " +
                     responsecode);
         } catch (IOException e) {
-            System.out.println("ОШИБКА11");
             e.printStackTrace();
-            System.out.println("ОШИБКА22");
             responsecode = 404;
         }
     }
